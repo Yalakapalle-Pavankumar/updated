@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(214, 253, 255);
+            text-align: center;
+         }
+        .head{
+            color: white;
+            background-color: black;
+            padding: 20px 0px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+        }
+        .container{
+            margin: 50px;
+        }
+        .navigation{
+            margin-top: 50px;
+        }
+        .menu{
+            list-style-type: none;
+        }
+        .menu-item{
+            display: inline;
+        }
+        .menu-link{
+            background-color: white;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 15px 60px;
+            margin-left: 10px;
+            color: black;
+            border-radius: 8px;
+            box-shadow: 5px 6px 2px rgb(212, 212, 212);
+        }
+        .menu-link:hover{
+            color: white;
+            background-color: black;
+            border: 1px solid white;
+            box-shadow: 5px 6px 2px rgba(0, 0, 0, 0.694);
+        }
+        .menu-link:active{
+            color: red;
+            
+        }
+        .logo{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            top: 0;
+            left: 100px;
+            padding-top: 10px;
+            margin-top: 9px;
+        }
+        .logo span{
+            font-size: 32px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <span>YP</span>
+    </div>
+    <h1 class="head">Pavan Kumar Front-end Notes</h1>
+    <div class="container">
+        <p>Front-end again can be divided into 3 parts</p>
+    <p>These are Languages, Libraries and Frameworks</p>
+    </div>
+    
+    <div class="navigation">
+        <ul class="menu">
+            <li class="menu-item"><a href="./languages/index.html" class="menu-link">Languages</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Frameworks</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Libraries</a></li>
+        </ul>
+    </div>
+</body>
+</html>
